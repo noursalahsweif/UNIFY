@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.cart{
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 1s;
+}
+.info:hover .cart{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cursor{
+  cursor: pointer;
+}
